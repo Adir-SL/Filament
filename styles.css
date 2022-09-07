@@ -5,9 +5,11 @@
     justify-content: center;
     align-items: center;
     background-color: #000000;
+    perspective: 1000px;
 }
 #board{
     width: 50vmin;
     height: 50vmin;
     background-color: red;
+    transform: rotateX(45deg) rotateZ(45deg);
 }
