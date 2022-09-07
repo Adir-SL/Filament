@@ -23,9 +23,9 @@
 }
 #board::before{
     background-color: green;
-    transform: rotateX(-90deg) translateY(50%) translateZ(25vmin);
+    transform: rotateX(-90deg) translateY(150%) translateZ(25vmin) scaleY(3);
 }
 #board::after{
     background-color: blue;
-    transform: rotateY(90deg) translateX(50%) translateZ(25vmin);
+    transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
