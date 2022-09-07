@@ -30,8 +30,11 @@
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
 .gridParent{
-    
+    position: absolute;
+    background-color: red;
+    inset: 3vmin;
+    display: grid;
 }
 .gridDot{
-
+    border: 1px solid black;
 }
