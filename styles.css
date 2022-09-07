@@ -31,10 +31,10 @@
 }
 .gridParent{
     position: absolute;
-    background-color: red;
     inset: 3vmin;
     display: grid;
+    grid-template-columns: repeat(8, 1fr);
 }
-.gridDot{
-    border: 1px solid black;
+.gridParent, .gridDot{
+    border: 1px solid yellow;
 }
