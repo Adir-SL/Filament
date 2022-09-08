@@ -1,1 +1,3 @@
-function randomDot(){}
+function randomDot(){
+    R = Math.random() * 80;
+}
