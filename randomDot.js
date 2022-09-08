@@ -1,4 +1,4 @@
 function randomDot(){
-    R = Math.random() * 80;
-    document.getElementsByClassName("gridDot")[R].getElementsByClassName.backgroundColor = "red";
+    window.R = Math.floor(Math.random() * 80);
+    document.getElementsByClassName("gridDot")[window.R].style.backgroundColor = "red";
 }
