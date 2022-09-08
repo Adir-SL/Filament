@@ -7,7 +7,7 @@ function randomTwice(){
 function randomDot(){
     window.R = Math.floor(Math.random() * 64);
     console.log(window.R);
-    document.getElementsByClassName("gridDot")[window.R].style.backgroundColor = "red";
+    document.getElementsByClassName("gridDot")[window.R].style.backgroundColor = "white";
 }
 
 function clearDots(){
