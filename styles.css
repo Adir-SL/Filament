@@ -38,3 +38,6 @@
 .gridParent, .gridDot{
     border: 0.5px solid yellow;
 }
+.gridDot{
+    transition: all 100ms linear 0s;
+}
