@@ -30,7 +30,7 @@
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
 #board.jiggle{
-    animation: jiggleBoard 1000ms linear forwards;
+    animation: jiggleBoard 500ms linear forwards;
 }
 .gridParent{
     position: absolute;
@@ -71,4 +71,12 @@
     background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
 }
 
-@keyframes jiggleBoard{}
+@keyframes jiggleBoard{
+    0%{transform: rotateX(45deg) rotateZ(45deg);}
+    15%{transform: rotateX(45deg) rotateZ(40deg);}
+    30%{transform: rotateX(45deg) rotateZ(49deg);}
+    45%{transform: rotateX(45deg) rotateZ(42deg);}
+    60%{transform: rotateX(45deg) rotateZ(47deg);}
+    75%{transform: rotateX(45deg) rotateZ(44deg);}
+    100%{transform: rotateX(45deg) rotateZ(45deg);}
+}
