@@ -12,8 +12,8 @@
     width: 50vmin;
     height: 50vmin;
     background-color: #373737;
-    transform: rotateX(45deg) rotateZ(45deg);
     transform-style: preserve-3d;
+    animation: introduceBoard 1000ms ease-out forwards;
 }
 #board::before, #board::after{
     content: '';
@@ -69,6 +69,11 @@
 .gridDot::after{
     transform: translateY(-1%) rotateX(-90deg) translateY(-50%);
     background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+}
+
+@keyframes introduceBoard{
+    0%{transform: rotateX(90deg) rotateZ(45deg);}
+    100%{transform: rotateX(45deg) rotateZ(45deg);}
 }
 
 @keyframes jiggleBoard{
