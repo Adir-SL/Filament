@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="styles.css">
     <script src="randomDot.js"></script>
 </head>
-<body onload="randomTwice();">
+<body onload="setTimeout(function() {document.getElementById('board').classList.remove('intro');randomDot();randomDot();}, 1500);">
     <div id="wrapper">
-        <div id="board" onclick="randomTwice();">
+        <div id="board" class="intro" onclick="randomTwice();">
             <div class="gridParent">
                 <!-- 8x8 Grid -->
 
