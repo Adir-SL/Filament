@@ -29,6 +29,9 @@
     background-color: #222222;
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
+#board.jiggle{
+    animation: jiggleBoard 1000ms linear forwards;
+}
 .gridParent{
     position: absolute;
     inset: 3vmin;
@@ -67,3 +70,5 @@
     transform: translateY(-1%) rotateX(-90deg) translateY(-50%);
     background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
 }
+
+@keyframes jiggleBoard{}
