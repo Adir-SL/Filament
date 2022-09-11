@@ -1,13 +1,13 @@
 function randomTwice(){
     clearDots();
-    setTimeout(function() {jiggleBoard();}, 500);
-    setTimeout(function() {randomDot();}, 1500);
-    setTimeout(function() {randomDot();}, 2000);
+    jiggleBoard();
+    setTimeout(function() {randomDot();}, 500);
+    setTimeout(function() {randomDot();}, 1000);
 }
 
 function jiggleBoard(){
     document.getElementById("board").classList.add("jiggle");
-    setTimeout(function() {document.getElementById("board").classList.remove("jiggle");}, 1000);
+    setTimeout(function() {document.getElementById("board").classList.remove("jiggle");}, 500);
 }
 
 function randomDot(){
