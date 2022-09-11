@@ -41,3 +41,6 @@
 .gridDot{
     transition: all 100ms linear 0s;
 }
+.gridDot.selected{
+    background-color: white;
+}
