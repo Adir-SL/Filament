@@ -1,8 +1,8 @@
 function randomTwice(){
     clearDots();
-
-    setTimeout(function() {randomDot();}, 500);
-    setTimeout(function() {randomDot();}, 1000);
+    setTimeout(function() {jiggleBoard();}, 500);
+    setTimeout(function() {randomDot();}, 1500);
+    setTimeout(function() {randomDot();}, 2000);
 }
 
 function randomDot(){
