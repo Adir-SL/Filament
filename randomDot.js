@@ -5,6 +5,8 @@ function randomTwice(){
     setTimeout(function() {randomDot();}, 2000);
 }
 
+function jiggleBoard(){}
+
 function randomDot(){
     window.R = Math.floor(Math.random() * 64);
     console.log(window.R);
