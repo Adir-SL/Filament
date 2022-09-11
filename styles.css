@@ -14,6 +14,7 @@
     background-color: #373737;
     transform-style: preserve-3d;
     transform: rotateX(90deg) rotateZ(45deg);
+    transition: transform 1000ms ease-in-out 0s;
 }
 #board::before, #board::after{
     content: '';
