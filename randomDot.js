@@ -5,7 +5,10 @@ function randomTwice(){
     setTimeout(function() {randomDot();}, 2000);
 }
 
-function jiggleBoard(){}
+function jiggleBoard(){
+    document.getElementById("borad").classList.add("jiggle");
+    setTimeout(function() {document.getElementById("borad").classList.remove("jiggle");}, 1000);
+}
 
 function randomDot(){
     window.R = Math.floor(Math.random() * 64);
