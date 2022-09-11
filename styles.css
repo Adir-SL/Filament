@@ -50,9 +50,14 @@
     content: '';
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 200%;
     background: red;
 }
+.gridDot.selected::before{
+    width: 200%;
+    height: 100%;
+    transform: translateX(0%) rotateY(-90deg) translateX(50%);
+}
 .gridDot.selected::after{
-    transform: translateY(50%) rotateX(-90deg) translateY(-50%);
+    transform: translateY(-1%) rotateX(-90deg) translateY(-50%);
 }
