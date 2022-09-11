@@ -46,11 +46,13 @@
 .gridDot.selected{
     background-color: white;
 }
-.gridDot.selected::after{
+.gridDot.selected::before, .gridDot.selected::after{
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     background: red;
-    transform: rotateX(-90deg) translateY(-50%);
+}
+.gridDot.selected::after{
+    transform: translateY(50%) rotateX(-90deg) translateY(-50%);
 }
