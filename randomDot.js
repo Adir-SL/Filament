@@ -1,7 +1,5 @@
 function randomTwice(){
     clearDots();
-    // randomDot();
-    
 
     setTimeout(function() {randomDot();}, 500);
     setTimeout(function() {randomDot();}, 1000);
