@@ -1,7 +1,10 @@
 function randomTwice(){
     clearDots();
-    randomDot();
-    randomDot();
+    // randomDot();
+    
+
+    setTimeout(function() {randomDot();}, 500);
+    setTimeout(function() {randomDot();}, 1000);
 }
 
 function randomDot(){
