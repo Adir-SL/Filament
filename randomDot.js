@@ -6,8 +6,8 @@ function randomTwice(){
 }
 
 function jiggleBoard(){
-    document.getElementById("borad").classList.add("jiggle");
-    setTimeout(function() {document.getElementById("borad").classList.remove("jiggle");}, 1000);
+    document.getElementById("board").classList.add("jiggle");
+    setTimeout(function() {document.getElementById("board").classList.remove("jiggle");}, 1000);
 }
 
 function randomDot(){
