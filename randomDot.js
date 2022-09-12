@@ -8,6 +8,11 @@ function randomTwice(){
 function jiggleBoard(){
     document.getElementById("board").classList.add("jiggle");
     setTimeout(function() {document.getElementById("board").classList.remove("jiggle");}, 500);
+
+    setTimeout(function() {
+    document.getElementById("board").classList.add("jiggle");
+    setTimeout(function() {document.getElementById("board").classList.remove("jiggle");}, 500);
+    }, 100);
 }
 
 function randomDot(){
