@@ -3,6 +3,7 @@ function randomTwice(){
     jiggleBoard();
     setTimeout(function() {randomDot();}, 300);
     setTimeout(function() {randomDot();}, 400);
+    setTimeout(function() {window.R = undefined;}, 500);
 }
 
 function jiggleBoard(){
