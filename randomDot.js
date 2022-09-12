@@ -19,10 +19,7 @@ function randomDot(){
     if(window.R == window.PR || window.R == window.PR-1 || window.R == window.PR+1 || window.R == window.PR-8 || window.R == window.PR+8){
         window.R = Math.floor(Math.random() * 64);
     }
-    // console.log(window.R);
     document.getElementsByClassName("gridDot")[window.R].classList.add("selected");
-    // window.R = undefined;
-    // window.PR = undefined;
 }
 
 function clearDots(){
