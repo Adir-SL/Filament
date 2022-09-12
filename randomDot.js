@@ -12,8 +12,11 @@ function jiggleBoard(){
 }
 
 function randomDot(){
+    if(window.R !== undefined){
+        window.PR = window.R;
+    }
     window.R = Math.floor(Math.random() * 64);
-    console.log(window.R);
+    // console.log(window.R);
     document.getElementsByClassName("gridDot")[window.R].classList.add("selected");
 }
 
