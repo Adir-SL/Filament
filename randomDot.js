@@ -21,8 +21,8 @@ function randomDot(){
     }
     // console.log(window.R);
     document.getElementsByClassName("gridDot")[window.R].classList.add("selected");
-    window.R = undefined;
-    window.PR = undefined;
+    // window.R = undefined;
+    // window.PR = undefined;
 }
 
 function clearDots(){
