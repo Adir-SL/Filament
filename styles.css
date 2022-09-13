@@ -84,12 +84,21 @@
     0%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
     5%{background: linear-gradient(90deg, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);}
     10%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
-    30%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
     35%{background: linear-gradient(90deg, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);}
     38%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
     40%{background: linear-gradient(90deg, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);}
     43%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
     100%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+}
+@keyframes blinkAfter {
+    0%{background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+    5%{background: linear-gradient(0deg, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);}
+    10%{background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+    35%{background: linear-gradient(0deg, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);}
+    38%{background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+    40%{background: linear-gradient(0deg, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);}
+    43%{background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+    100%{background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
 }
 
 @keyframes introBoard {
