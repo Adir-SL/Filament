@@ -14,6 +14,9 @@ function jiggleBoard(){
 function randomDot(){
     if(window.R !== undefined){
         window.PR = window.R;
+        classToAdd = "selected delayAnim";
+    }else{
+        classToAdd = "selected";
     }
     window.R = Math.floor(Math.random() * 64);
     if(window.R == window.PR || window.R == window.PR-1 || window.R == window.PR+1 || window.R == window.PR-8 || window.R == window.PR+8){
