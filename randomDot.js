@@ -22,7 +22,7 @@ function randomDot(){
     if(window.R == window.PR || window.R == window.PR-1 || window.R == window.PR+1 || window.R == window.PR-8 || window.R == window.PR+8){
         window.R = Math.floor(Math.random() * 64);
     }
-    document.getElementsByClassName("gridDot")[window.R].classList.add("selected");
+    document.getElementsByClassName("gridDot")[window.R].classList.add(classToAdd);
 }
 
 function clearDots(){
