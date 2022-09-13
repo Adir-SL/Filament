@@ -80,7 +80,7 @@
     animation: blinkAfter 3000ms linear infinite;
 }
 
-.delayAnim{
+.delayAnim, .delayAnim::before, .delayAnim::after{
     animation-delay: 500ms !important;
 }
 
