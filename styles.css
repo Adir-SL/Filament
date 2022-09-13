@@ -73,8 +73,11 @@
     transform: translateY(-1%) rotateX(-90deg) translateY(-50%);
     background: linear-gradient(0deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
 }
-.gridDot::before, .gridDot::after{
-    animation: blinkLight 3000ms linear infinite;
+.gridDot::before{
+    animation: blinkBefore 3000ms linear infinite;
+}
+.gridDot::after{
+    animation: blinkAfter 3000ms linear infinite;
 }
 
 @keyframes blinkLight {
