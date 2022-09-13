@@ -77,6 +77,15 @@
     animation: blinkLight 3000ms linear infinite;
 }
 
+@keyframes blinkLight {
+    0%{opacity: 1;}
+    30%{opacity: 1;}
+    35%{opacity: .5;}
+    38%{opacity: .5;}
+    40%{opacity: 1;}
+    100%{opacity: 1;}
+}
+
 @keyframes introBoard {
     0%{transform: rotateX(90deg) rotateZ(45deg);}
     100%{transform: rotateX(45deg) rotateZ(45deg);}
