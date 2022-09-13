@@ -80,13 +80,13 @@
     animation: blinkAfter 3000ms linear infinite;
 }
 
-@keyframes blinkLight {
-    0%{opacity: 1;}
-    30%{opacity: 1;}
-    35%{opacity: .5;}
-    38%{opacity: .5;}
-    40%{opacity: 1;}
-    100%{opacity: 1;}
+@keyframes blinkBefore {
+    0%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+    30%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+    35%{background: linear-gradient(90deg, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);}
+    38%{background: linear-gradient(90deg, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);}
+    40%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
+    100%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
 }
 
 @keyframes introBoard {
