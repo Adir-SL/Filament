@@ -83,8 +83,9 @@
 .gridParent .gridDot.selected:nth-of-type(2)::before{
     animation-delay: 500ms;
 }
-.gridParent .gridDot.selected:nth-of-type(2)::after{
-    animation-delay: 500ms;
+.gridParent .gridDot.selected:last-of-type{
+    /* animation-delay: 500ms; */
+    background: red !important;
 }
 
 @keyframes blinkBefore {
