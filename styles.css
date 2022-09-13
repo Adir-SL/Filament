@@ -80,12 +80,8 @@
     animation: blinkAfter 3000ms linear infinite;
 }
 
-.gridParent .gridDot.selected:nth-of-type(2)::before{
+.delayAnim{
     animation-delay: 500ms;
-}
-.gridParent .gridDot.selected:last-of-type{
-    /* animation-delay: 500ms; */
-    background: red !important;
 }
 
 @keyframes blinkBefore {
