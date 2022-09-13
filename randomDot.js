@@ -30,5 +30,6 @@ function clearDots(){
     var i;
     for (i = 0; i < x.length; i++) {
         x[i].classList.remove("selected");
+        x[i].classList.remove("delayAnim");
     }
 }
