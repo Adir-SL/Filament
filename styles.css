@@ -103,6 +103,10 @@
 }
 .lampParent.horizon{
     flex-direction: row;
+    width: fit-content;
+    height: 100%;
+    top: 0%;
+    left: 100%
 }
 .lampParent.horizon .lamp{
     width: calc(var(--lampSize) / 1.5);
