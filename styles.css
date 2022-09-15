@@ -100,9 +100,18 @@
     background-color: skyblue;
     margin: 1vmin;
 }
+.length-8{
+    width: calc(var(--lampSize) * 8);
+    margin-top: 2vmin;
+}
+.length-7{
+    width: calc(var(--lampSize) * 7);
+}
+.length-6{
+    width: calc(var(--lampSize) * 6);
+}
 .length-5{
     width: calc(var(--lampSize) * 5);
-    margin-top: 2vmin;
 }
 .length-4{
     width: calc(var(--lampSize) * 4);
