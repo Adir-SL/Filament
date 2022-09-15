@@ -96,6 +96,7 @@
 .lamp{
     position: relative;
     width: calc(var(--lampSize) * 2);
+    width: attr[length];
     height: calc(var(--lampSize) / 1.5);
     background-color: skyblue;
     margin: 2px;
