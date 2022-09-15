@@ -1,3 +1,6 @@
+body, #wrapper{
+    overflow: hidden;
+}
 #wrapper{
     position: absolute;
     inset: 0;
