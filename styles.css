@@ -128,13 +128,9 @@
     height: calc(var(--lampSize) * 5);
 }
 .lampParent.horizon .length-4{
-    margin-top: 1vmin;
-    margin-left: 2vmin;
     height: calc(var(--lampSize) * 4);
 }
 .lampParent.horizon .length-3{
-    margin-top: 1vmin;
-    margin-left: 2vmin;
     height: calc(var(--lampSize) * 3);
 }
 
