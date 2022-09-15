@@ -84,6 +84,20 @@
     animation-delay: 500ms !important;
 }
 
+.lampParent{
+    --lampSize: 5.3vmin;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.lamp{
+    position: relative;
+    width: calc(var(--lampSize) * 2);
+    height: var(--lampSize);
+    background-color: skyblue;
+    margin: 2px;
+}
+
 @keyframes blinkBefore {
     0%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
     5%{background: linear-gradient(90deg, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);}
