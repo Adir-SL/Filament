@@ -108,6 +108,7 @@
     left: 100%
 }
 .lampParent.horizon .lamp{
+    background-color: lightgreen;
     width: calc(var(--lampSize) / 1.5);
     height: calc(var(--lampSize) * 2);
 }
