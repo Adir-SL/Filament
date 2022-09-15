@@ -101,6 +101,13 @@
     background-color: skyblue;
     margin: 2px;
 }
+.lampParent.horizon{
+    flex-direction: row;
+}
+.lampParent.horizon .lamp{
+    width: calc(var(--lampSize) / 1.5);
+    height: calc(var(--lampSize) * 2);
+}
 
 @keyframes blinkBefore {
     0%{background: linear-gradient(90deg, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);}
