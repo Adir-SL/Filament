@@ -10,12 +10,6 @@
 </head>
 <body onload="setTimeout(function() {document.getElementById('board').classList.remove('intro');randomDot();randomDot();}, 1500);">
     <div id="wrapper">
-        <div class="lampParent">
-            <div class="lamp"></div>
-            <div class="lamp"></div>
-            <div class="lamp"></div>
-            <div class="lamp"></div>
-        </div>
         <div id="board" class="intro" onclick="randomTwice();">
             <div class="gridParent">
                 <!-- 8x8 Grid -->
@@ -92,6 +86,12 @@
                 <div class="gridDot"></div>
                 <div class="gridDot"></div>
             </div>
+        </div>
+        <div class="lampParent">
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
         </div>
     </div>
 </body>
