@@ -122,7 +122,8 @@ body, #wrapper{
     z-index: inherit;
     content: '●';
     font-size: calc(var(--lampSize) * 1.2);
-    line-height: calc(var(--lampSize) * 1.4);
+    line-height: calc(var(--lampSize) * .8);
+    text-indent: calc(var(--lampSize) * .3);
 }
 .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
     height: var(--lampSize);
@@ -133,6 +134,7 @@ body, #wrapper{
     background: linear-gradient(90deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 93%, rgba(143,139,149,1) 100%);
     font-size: calc(var(--lampSize) * 1.2);
     line-height: calc(var(--lampSize) * 1.4);
+    text-indent: 0;
 }
 .lampParent.horizon .lamp::after{
     top: auto;
