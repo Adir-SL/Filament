@@ -104,6 +104,9 @@ body, #wrapper{
     margin: 1vmin;
     border-radius: 9999px;
 }
+.lamp::before, .lamp::after{
+    content: '';
+}
 .length-8{
     width: calc(var(--lampSize) * 8);
     margin-top: 2vmin;
