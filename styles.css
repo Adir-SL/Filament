@@ -110,6 +110,7 @@ body, #wrapper{
     width: var(--lampSize);
     height: var(--lampSize);
     background-color: red;
+    top: calc(var(--lampSize) / -4);
 }
 .length-8{
     width: calc(var(--lampSize) * 8);
