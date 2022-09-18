@@ -114,12 +114,15 @@ body, #wrapper{
     border-radius: 9999px;
     left: -10px;
     background: rgb(121,120,125);
-background: linear-gradient(0deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 93%, rgba(143,139,149,1) 100%);
+    background: linear-gradient(0deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 93%, rgba(143,139,149,1) 100%);
 }
 .lamp::after{
     left: auto;
     right: -10px;
     z-index: inherit;
+    content: '●';
+    font-size: calc(var(--lampSize) * 1.2);
+    line-height: calc(var(--lampSize) * 1.4);
 }
 .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
     height: var(--lampSize);
@@ -127,7 +130,9 @@ background: linear-gradient(0deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26
     top: -10px;
     left: calc(var(--lampSize) / -12);
     background: rgb(121,120,125);
-background: linear-gradient(90deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 93%, rgba(143,139,149,1) 100%);
+    background: linear-gradient(90deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 93%, rgba(143,139,149,1) 100%);
+    font-size: calc(var(--lampSize) * 1.2);
+    line-height: calc(var(--lampSize) * 1.4);
 }
 .lampParent.horizon .lamp::after{
     top: auto;
