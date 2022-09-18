@@ -109,11 +109,12 @@ body, #wrapper{
     position: absolute;
     width: var(--lampSize);
     height: calc(var(--lampSize) / 1.2);
-    background-color: red;
     z-index: -1;
     top: calc(var(--lampSize) / -12);
     border-radius: 9999px;
     left: -10px;
+    background: rgb(121,120,125);
+background: linear-gradient(90deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 93%, rgba(143,139,149,1) 100%);
 }
 .lamp::after{
     left: auto;
@@ -125,7 +126,6 @@ body, #wrapper{
     width: calc(var(--lampSize) / 1.2);
     top: -10px;
     left: calc(var(--lampSize) / -12);
-    background-color: green;
 }
 .lampParent.horizon .lamp::after{
     top: auto;
