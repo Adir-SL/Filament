@@ -106,6 +106,10 @@ body, #wrapper{
 }
 .lamp::before, .lamp::after{
     content: '';
+    position: absolute;
+    width: var(--lampSize);
+    height: var(--lampSize);
+    background-color: red;
 }
 .length-8{
     width: calc(var(--lampSize) * 8);
