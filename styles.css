@@ -108,15 +108,16 @@ body, #wrapper{
     content: '';
     position: absolute;
     width: var(--lampSize);
-    height: var(--lampSize);
+    height: calc(var(--lampSize) / 1.2);
     background-color: red;
     z-index: -1;
-    top: calc(var(--lampSize) / -6);
-    left: 0;
+    top: calc(var(--lampSize) / -12);
+    border-radius: 9999px;
+    left: -10px;
 }
 .lamp::after{
     left: auto;
-    right: 0;
+    right: -10px;
     z-index: inherit;
     /* top: auto;
     bottom: calc(var(--lampSize) / -4); */
