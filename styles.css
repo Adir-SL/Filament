@@ -112,9 +112,19 @@ body, #wrapper{
     background-color: red;
     top: calc(var(--lampSize) / -4);
 }
+.lamp::after{
+    top: auto;
+    bottom: calc(var(--lampSize) / -4);
+}
 .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
     top: auto;
     left: calc(var(--lampSize) / -4);
+}
+.lampParent.horizon .lamp::after{
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: calc(var(--lampSize) / -4);
 }
 .length-8{
     width: calc(var(--lampSize) * 8);
