@@ -125,6 +125,7 @@ body, #wrapper{
     font-size: calc(var(--lampSize) * 1.2);
     line-height: calc(var(--lampSize) * .8);
     text-indent: calc(var(--lampSize) * .3);
+    text-shadow: 0 0 calc(var(--lampSize) * .1) white;
 }
 .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
     height: var(--lampSize);
