@@ -210,8 +210,11 @@ body, #wrapper{
 
 @keyframes lampBlink {
     0%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
-    90%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
-    95%{box-shadow: 0 0 1vmin var(--shadowColor), 0 0 2vmin var(--shadowColor), 0 0 0.5vmin .5vmin var(--shadowColor) inset;}
+    23%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
+    25%{box-shadow: 0 0 1vmin var(--shadowColor), 0 0 2vmin var(--shadowColor), 0 0 0.5vmin .5vmin var(--shadowColor) inset;}
+    27%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
+    96%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
+    98%{box-shadow: 0 0 1vmin var(--shadowColor), 0 0 2vmin var(--shadowColor), 0 0 0.5vmin .5vmin var(--shadowColor) inset;}
     100%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
 }
 
