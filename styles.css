@@ -102,7 +102,7 @@ body, #wrapper{
     height: calc(var(--lampSize) / 1.8);
     background-color: white;
     --shadowColor: skyblue;
-    box-shadow: 0 0 2vmin skyblue;
+    box-shadow: 0 0 2vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;
     margin: 1vmin;
     border-radius: 9999px;
 }
