@@ -110,7 +110,7 @@ body, #wrapper{
     content: '';
     position: absolute;
     width: var(--lampSize);
-    height: calc(var(--lampSize) / 1.2);
+    height: calc(var(--lampSize) / 1.3);
     z-index: -1;
     top: calc(var(--lampSize) / -12);
     border-radius: 9999px;
