@@ -137,6 +137,7 @@ body, #wrapper{
     left: calc(var(--lampSize) / -12);
     background: rgb(121,120,125);
     background: linear-gradient(90deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 88%, rgba(143,139,149,1) 100%);
+    background: linear-gradient(90deg, rgba(121,120,125,1) 0%, var(--shadowColor) 26%, rgba(78,77,80,1) 88%, var(--shadowColor) 100%);
     font-size: calc(var(--lampSize) * 1.2);
     line-height: calc(var(--lampSize) * 1.4);
     text-indent: 0;
