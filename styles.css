@@ -105,7 +105,13 @@ body, #wrapper{
     box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;
     margin: 1vmin;
     border-radius: 9999px;
-    animation: lampBlink 500ms linear infinite;
+    animation: lampBlink 1500ms linear infinite;
+}
+.lamp:nth-of-type(3n){
+    animation-delay: -300ms;
+}
+.lamp:nth-of-type(5n){
+    animation-delay: -500ms;
 }
 .lamp::before, .lamp::after{
     content: '';
