@@ -100,7 +100,7 @@ body, #wrapper{
     position: relative;
     width: calc(var(--lampSize) * 2);
     height: calc(var(--lampSize) / 1.8);
-    background-color: skyblue;
+    background-color: white;
     box-shadow: 0 0 2vmin skyblue;
     margin: 1vmin;
     border-radius: 9999px;
@@ -171,7 +171,7 @@ body, #wrapper{
     left: 100%
 }
 .lampParent.horizon .lamp{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     box-shadow: 0 0 2vmin lightgreen;
     width: calc(var(--lampSize) / 1.8);
     height: calc(var(--lampSize) * 2);
