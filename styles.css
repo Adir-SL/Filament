@@ -212,8 +212,8 @@ body, #wrapper{
     animation: lampIntro 1000ms ease-out forwards;
 }*/
 @keyframes animIntro {
-    0%{transform: translateY(-100vmin);}
-    100%{transform: translateY(0);}
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 } 
 
 @keyframes lampBlink {
