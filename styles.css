@@ -108,10 +108,10 @@ body, #wrapper{
     animation: lampBlink 1500ms linear infinite, animIntro 1000ms ease-out 1000ms both;
 }
 .lamp:nth-of-type(3n){
-    animation-delay: -500ms;
+    animation-delay: -500ms, 1200ms;
 }
 .lamp:nth-of-type(5n){
-    animation-delay: -200ms;
+    animation-delay: -200ms, 1200ms;
 }
 .lamp::before, .lamp::after{
     content: '';
