@@ -95,7 +95,7 @@ body, #wrapper{
     align-items: center;
     width: 100%;
     top: 100%;
-    animation: animIntro 1000ms ease-out 1000ms both;
+    animation: animIntro 300ms ease-out 1500ms both;
 }
 .lamp{
     position: relative;
