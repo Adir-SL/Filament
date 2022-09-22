@@ -31,11 +31,15 @@ body, #wrapper{
 }
 #board::before{
     background-color: #474747;
+    --baseColor: #474747;
     background: linear-gradient(180deg, var(--lampColorLeft) 0%, rgba(71,71,71,1) 25%, rgba(71,71,71,1) 100%);
+    opacity: .3;
     transform: rotateX(-90deg) translateY(150%) translateZ(25vmin) scaleY(3);
 }
 #board::after{
     background-color: #222222;
+    background: linear-gradient(90deg, var(--lampColorRight) 0%, rgba(71,71,71,1) 25%, rgba(71,71,71,1) 100%);
+    opacity: .3;
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
 #board.jiggle{
