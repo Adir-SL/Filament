@@ -97,6 +97,9 @@ body, #wrapper{
     top: 100%;
     /* animation: animIntro 300ms ease-out 1500ms both; */
 }
+.outerLamp{
+    animation: lampIntro 300ms ease-out 1500ms both;
+}
 .lamp{
     position: relative;
     width: calc(var(--lampSize) * 2);
