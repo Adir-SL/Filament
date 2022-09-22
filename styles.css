@@ -95,6 +95,7 @@ body, #wrapper{
     align-items: center;
     width: 100%;
     top: 100%;
+    transform-style: preserve-3d;
     /* animation: animIntro 300ms ease-out 1500ms both; */
 }
 .outerLamp{
@@ -237,8 +238,10 @@ body, #wrapper{
     100%{opacity: 1;}
 } 
 @keyframes lampIntro {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
+    /* 0%{opacity: 0;}
+    100%{opacity: 1;} */
+    0%{transform: translateZ(20vmin); opacity: 0;}
+    100%{transform: translateZ(0); opacity: 1;}
 } 
 
 @keyframes lampBlink {
