@@ -215,6 +215,10 @@ body, #wrapper{
     0%{opacity: 0;}
     100%{opacity: 1;}
 } 
+@keyframes lampIntro {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+} 
 
 @keyframes lampBlink {
     0%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
