@@ -99,6 +99,7 @@ body, #wrapper{
     /* animation: animIntro 300ms ease-out 1500ms both; */
 }
 .outerLamp{
+    cursor: pointer;
     animation: lampIntro 300ms ease-out 800ms both;
 }
 .outerLamp:nth-of-type(2){
