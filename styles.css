@@ -112,6 +112,12 @@ body, #wrapper{
 .outerLamp:nth-of-type(5){
     animation-delay: 2400ms;
 }
+.outerLamp:nth-of-type(6){
+    animation-delay: 2600ms;
+}
+.outerLamp:nth-of-type(7){
+    animation-delay: 2800ms;
+}
 .lamp{
     position: relative;
     width: calc(var(--lampSize) * 2);
