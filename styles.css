@@ -130,10 +130,10 @@ body, #wrapper{
     border-radius: 9999px;
     animation: lampBlink 1500ms linear infinite;
 }
-.lamp:nth-of-type(3n){
+.lamp.length-7, .lamp.length-2, .lamp.length-3{
     animation-delay: -500ms;
 }
-.lamp:nth-of-type(5n){
+.lamp.length-5, .lamp.length-1{
     animation-delay: -200ms;
 }
 .lamp::before, .lamp::after{
