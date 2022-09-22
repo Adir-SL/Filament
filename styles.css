@@ -154,6 +154,7 @@ body, #wrapper{
     right: -10px;
     z-index: inherit;
     content: '●';
+    /* bullet */
     color: rgb(69, 69, 71);
     font-size: calc(var(--lampSize) * 1.2);
     line-height: calc(var(--lampSize) * .8);
