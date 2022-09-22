@@ -100,6 +100,9 @@ body, #wrapper{
 .outerLamp{
     animation: lampIntro 300ms ease-out 1500ms both;
 }
+.outerLamp:nth-of-type(2){
+    animation-delay: 1800ms;
+}
 .lamp{
     position: relative;
     width: calc(var(--lampSize) * 2);
