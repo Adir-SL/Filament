@@ -102,6 +102,9 @@ body, #wrapper{
     cursor: pointer;
     animation: lampIntro 300ms ease-out 800ms both;
 }
+.outerLamp:hover{
+    filter: brightness(120%);
+}
 .outerLamp:nth-of-type(2){
     animation-delay: 1000ms;
 }
