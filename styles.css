@@ -169,8 +169,8 @@ body, #wrapper{
     /* bullet */
     color: rgb(69, 69, 71);
     font-size: calc(var(--lampSize) * 1);
-    line-height: calc(var(--lampSize) * .7);
-    text-indent: calc(var(--lampSize) * .3);
+    line-height: calc(var(--lampSize) * .6);
+    text-indent: calc(var(--lampSize) * .4);
     text-shadow: 0 0 calc(var(--lampSize) * .1) white;
 }
 .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
