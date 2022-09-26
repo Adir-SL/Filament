@@ -151,7 +151,7 @@ body, #wrapper{
 .lamp::before, .lamp::after{
     content: '';
     position: absolute;
-    width: var(--lampSize);
+    width: calc(var(--lampSize) / 1.2);
     height: calc(var(--lampSize) / 1.7);
     z-index: -1;
     top: calc(var(--lampSize) / -12);
