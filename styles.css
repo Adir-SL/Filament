@@ -168,20 +168,20 @@ body, #wrapper{
     content: '●';
     /* bullet */
     color: rgb(69, 69, 71);
-    font-size: calc(var(--lampSize) * 1.2);
+    font-size: calc(var(--lampSize) * 1);
     line-height: calc(var(--lampSize) * .7);
     text-indent: calc(var(--lampSize) * .3);
     text-shadow: 0 0 calc(var(--lampSize) * .1) white;
 }
 .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
     height: var(--lampSize);
-    width: calc(var(--lampSize) / 1.4);
+    width: calc(var(--lampSize) / 1.7);
     top: -10px;
     left: calc(var(--lampSize) / -12);
     background: rgb(121,120,125);
     /* background: linear-gradient(90deg, rgba(121,120,125,1) 0%, rgba(194,192,203,1) 26%, rgba(78,77,80,1) 88%, rgba(143,139,149,1) 100%); */
     background: linear-gradient(90deg, rgba(121,120,125,1) 0%, var(--shadowColor) 26%, rgba(78,77,80,1) 88%, var(--shadowColor) 100%);
-    font-size: calc(var(--lampSize) * 1.2);
+    font-size: calc(var(--lampSize) * 1);
     line-height: calc(var(--lampSize) * 1.4);
     text-indent: 0;
 }
