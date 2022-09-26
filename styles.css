@@ -39,7 +39,7 @@ body, #wrapper{
 #board::after{
     background-color: #222222;
     --baseColor: #8d8d8d;
-    background: linear-gradient(90deg, var(--lampColorRight) 0%, var(--baseColor) 25%, var(--baseColor) 100%);
+    /* background: linear-gradient(90deg, var(--lampColorRight) 0%, var(--baseColor) 25%, var(--baseColor) 100%); */
     opacity: .3;
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
