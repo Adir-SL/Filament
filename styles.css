@@ -134,7 +134,7 @@ body, #wrapper{
 .lamp{
     position: relative;
     width: calc(var(--lampSize) * 2);
-    height: calc(var(--lampSize) / 2);
+    height: calc(var(--lampSize) / 2.5);
     background-color: white;
     --shadowColor: var(--lampColorLeft);
     box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;
@@ -220,7 +220,7 @@ body, #wrapper{
     /* background-color: lightgreen; */
     /* box-shadow: 0 0 2vmin lightgreen; */
     --shadowColor: var(--lampColorRight);
-    width: calc(var(--lampSize) / 2);
+    width: calc(var(--lampSize) / 2.5);
     height: calc(var(--lampSize) * 2);
 }
 .lampParent.horizon .length-8{
