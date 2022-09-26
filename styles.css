@@ -174,7 +174,7 @@ body, #wrapper{
     text-shadow: 0 0 calc(var(--lampSize) * .1) white;
 }
 .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
-    height: var(--lampSize);
+    height: calc(var(--lampSize) / 1.2);
     width: calc(var(--lampSize) / 1.7);
     top: -10px;
     left: calc(var(--lampSize) / -12);
