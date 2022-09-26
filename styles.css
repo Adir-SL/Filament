@@ -30,14 +30,14 @@ body, #wrapper{
     height: 100%;
 }
 #board::before{
-    background-color: #474747;
+    background-color: #686868;
     --baseColor: #474747;
     /* background: linear-gradient(180deg, var(--lampColorLeft) 0%, var(--baseColor) 25%, var(--baseColor) 100%); */
     opacity: .3;
     transform: rotateX(-90deg) translateY(150%) translateZ(25vmin) scaleY(3);
 }
 #board::after{
-    background-color: #222222;
+    background-color: #3c3c3c;
     --baseColor: #8d8d8d;
     /* background: linear-gradient(90deg, var(--lampColorRight) 0%, var(--baseColor) 25%, var(--baseColor) 100%); */
     opacity: .3;
