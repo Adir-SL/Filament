@@ -29,13 +29,13 @@ body, #wrapper{
     height: 100%;
 }
 .boardWall:nth-of-type(1){
-    background-color: #8e8e8e;
+    background-color: #2b2b2b;
     --baseColor: #474747;
     /* background: linear-gradient(180deg, var(--lampColorLeft) 0%, var(--baseColor) 25%, var(--baseColor) 100%); */
     transform: rotateX(-90deg) translateY(150%) translateZ(25vmin) scaleY(3);
 }
 .boardWall:nth-of-type(2){
-    background-color: #565656;
+    background-color: #212121;
     --baseColor: #8d8d8d;
     /* background: linear-gradient(90deg, var(--lampColorRight) 0%, var(--baseColor) 25%, var(--baseColor) 100%); */
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
@@ -43,15 +43,17 @@ body, #wrapper{
 .lightWall{
     position: absolute;
     width: 100%;
-    height: 15%;
-    top: 0;
+    height: 20%;
+    top: -5%;
     background-color: var(--lampColorLeft);
-    filter: blur(3vmin);
-    opacity: .3;
+    filter: blur(2vmin);
+    opacity: .5;
 }
 .boardWall:nth-of-type(2) .lightWall{
     height: 100%;
-    width: 15%;
+    width: 20%;
+    top: 0;
+    left: -5%;
     background-color: var(--lampColorRight);
 }
 #board.jiggle{
