@@ -42,6 +42,11 @@ body, #wrapper{
     opacity: .3;
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
+.lightWall{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
 #board.jiggle{
     animation: jiggleBoard 500ms linear forwards;
 }
