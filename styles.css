@@ -32,14 +32,12 @@ body, #wrapper{
     background-color: #8e8e8e;
     --baseColor: #474747;
     /* background: linear-gradient(180deg, var(--lampColorLeft) 0%, var(--baseColor) 25%, var(--baseColor) 100%); */
-    opacity: .3;
     transform: rotateX(-90deg) translateY(150%) translateZ(25vmin) scaleY(3);
 }
 .boardWall:nth-of-type(2){
     background-color: #565656;
     --baseColor: #8d8d8d;
     /* background: linear-gradient(90deg, var(--lampColorRight) 0%, var(--baseColor) 25%, var(--baseColor) 100%); */
-    opacity: .3;
     transform: rotateY(90deg) translateX(150%) translateZ(25vmin) scaleX(3);
 }
 .lightWall{
@@ -49,6 +47,7 @@ body, #wrapper{
     top: 0;
     background-color: var(--lampColorLeft);
     filter: blur(3vmin);
+    opacity: .3;
 }
 .boardWall:nth-of-type(2) .lightWall{
     height: 100%;
