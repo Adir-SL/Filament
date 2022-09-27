@@ -48,6 +48,7 @@ body, #wrapper{
     height: 15%;
     top: 0;
     background-color: var(--lampColorLeft);
+    filter: blur(3vmin);
 }
 .boardWall:nth-of-type(2) .lightWall{
     height: 100%;
