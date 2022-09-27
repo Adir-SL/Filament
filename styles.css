@@ -43,7 +43,7 @@ body, #wrapper{
 }
 .lightWall{
     position: absolute;
-    width: 100%;
+    width: 120%;
     height: 20%;
     top: -5%;
     background-color: var(--lampColorLeft);
@@ -51,7 +51,7 @@ body, #wrapper{
     opacity: .5;
 }
 .boardWall:nth-of-type(2) .lightWall{
-    height: 100%;
+    height: 120%;
     width: 20%;
     top: 0;
     left: -5%;
