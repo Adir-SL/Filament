@@ -49,6 +49,7 @@ body, #wrapper{
     background-color: var(--lampColorLeft);
     filter: blur(4vmin);
     opacity: .7;
+    
 }
 .boardWall:nth-of-type(2) .lightWall{
     height: 120%;
