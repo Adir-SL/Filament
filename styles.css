@@ -49,7 +49,7 @@ body, #wrapper{
     background-color: var(--lampColorLeft);
     filter: blur(4vmin);
     opacity: 0;
-    animation: gradientEnter 800ms linear 500ms forwards;
+    animation: gradientEnter 800ms linear 800ms forwards;
 }
 .boardWall:nth-of-type(2) .lightWall{
     height: 120%;
