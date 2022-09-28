@@ -48,8 +48,8 @@ body, #wrapper{
     top: -5%;
     background-color: var(--lampColorLeft);
     filter: blur(4vmin);
-    opacity: .7;
-    animation: gradientEnter 800ms linear 0s;
+    opacity: 0;
+    animation: gradientEnter 800ms linear 500ms forwards;
 }
 .boardWall:nth-of-type(2) .lightWall{
     height: 120%;
@@ -317,4 +317,9 @@ body, #wrapper{
     60%{transform: rotateX(45deg) rotateZ(47deg);}
     75%{transform: rotateX(45deg) rotateZ(44deg);}
     100%{transform: rotateX(45deg) rotateZ(45deg);}
+}
+
+@keyframes gradientEnter {
+    0%{opacity: 0;}
+    100%{opacity: 0.7;}
 }
