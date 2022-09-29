@@ -25,6 +25,9 @@ body, #wrapper{
 #headerDiv div{
     display: flex;
 }
+#headerDiv span{
+    animation: lampBlink 2000ms linear infinite;
+}
 button{
     font-family: 'Inter', sans-serif;
     font-size: 3vmin;
@@ -302,6 +305,23 @@ button:hover{
     60%{transform: translateZ(3vmin); opacity: 1;}
     100%{transform: translateZ(0); opacity: 1;}
 } 
+
+@keyframes textBlink{
+    0%{opacity: 1;}
+    30%{opacity: 1;}
+    31%{opacity: .7;}
+    32%{opacity: 1;}
+    40%{opacity: 1;}
+    41%{opacity: .9;}
+    42%{opacity: 1;}
+    44%{opacity: 1;}
+    45%{opacity: .6;}
+    46%{opacity: 1;}
+    49%{opacity: 1;}
+    50%{opacity: .9;}
+    51%{opacity: 1;}
+    100%{opacity: 1;}
+}
 
 @keyframes lampBlink {
     0%{box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;}
