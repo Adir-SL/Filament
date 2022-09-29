@@ -33,3 +33,7 @@ function clearDots(){
         x[i].classList.remove("delayAnim");
     }
 }
+
+function headerFade(){
+    document.getElementById("headerDiv").style.opacity = 0;
+}
