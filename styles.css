@@ -20,7 +20,7 @@ body, #wrapper{
     font-size: 10vmin;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
-    transition: opacity 500ms linear 0s;
+    transition: opacity 300ms linear 0s;
 }
 button{
     font-family: 'Inter', sans-serif;
@@ -30,6 +30,7 @@ button{
     outline: none;
     border: none;
     border-radius: 10vmin;
+    cursor: pointer;
     transition: box-shadow 200ms ease-out 0s;
 }
 button:hover{
