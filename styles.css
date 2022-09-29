@@ -29,8 +29,12 @@ button{
     outline: none;
     border: none;
     border-radius: 10vmin;
+    transition: box-shadow 200ms ease-out 0s;
 }
-button:hover{}
+button:hover{
+    --shadowColor: #ffffff;
+    box-shadow: 0 0 2vmin var(--shadowColor), 0 0 3vmin var(--shadowColor), 0 0 1vmin .5vmin var(--shadowColor) inset;
+}
 #board{
     position: relative;
     width: 50vmin;
