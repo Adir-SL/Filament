@@ -22,6 +22,9 @@ body, #wrapper{
     color: #ffffff;
     transition: opacity 300ms linear 0s;
 }
+#headerDiv div{
+    display: flex;
+}
 button{
     font-family: 'Inter', sans-serif;
     font-size: 3vmin;
