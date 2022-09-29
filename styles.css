@@ -20,6 +20,7 @@ body, #wrapper{
     font-size: 10vmin;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
+    gap: 2vmin;
     transition: opacity 300ms linear 0s;
 }
 #headerDiv div{
