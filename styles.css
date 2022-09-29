@@ -10,6 +10,22 @@ body, #wrapper{
     background-color: #000000;
     perspective: 1000vmin;
 }
+#headerDiv{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10vmin;
+}
+button{
+    font-size: 3vmin;
+    padding: 1vmin;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 10vmin;
+}
 #board{
     position: relative;
     width: 50vmin;
