@@ -36,4 +36,5 @@ function clearDots(){
 
 function headerFade(){
     document.getElementById("headerDiv").style.opacity = 0;
+    document.getElementById("headerDiv").style.pointerEvents = "none";
 }
