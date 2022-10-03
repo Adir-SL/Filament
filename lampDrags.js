@@ -5,8 +5,8 @@ function lampDrag(e){
 }
 
 function dragToMouse(e){
-    window.tempLamp.offsetLeft = e.pageX + "px";
-    window.tempLamp.offsetTop = e.pageY + "px";
+    e.target.offsetLeft = e.pageX + "px";
+    e.target.offsetTop = e.pageY + "px";
 }
 
 function lampDrop(e){
