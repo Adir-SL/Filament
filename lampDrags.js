@@ -1,7 +1,7 @@
 function lampDrag(e){
     // alert(e.target);
     window.tempLamp = e.target;
-    addEventListener('mousemove', dragToMouse(e));
+    // addEventListener('mousemove', dragToMouse(e));
 }
 
 function dragToMouse(e){
@@ -10,5 +10,5 @@ function dragToMouse(e){
 }
 
 function lampDrop(e){
-    alert(e.target);
+    // alert(e.target);
 }
