@@ -1,16 +1,16 @@
-function lampDrag(e){
-    // alert(e.target);
-    window.tempLamp = e.target;
-    window.tempPageX = e.pageX;
-    window.tempPageY = e.pageY;
-    // addEventListener('mousemove', dragToMouse(e));
-}
+// function lampDrag(e){
+//     // alert(e.target);
+//     window.tempLamp = e.target;
+//     window.tempPageX = e.pageX;
+//     window.tempPageY = e.pageY;
+//     // addEventListener('mousemove', dragToMouse(e));
+// }
 
-function dragToMouse(e){
-    e.target.style.top = e.pageX - window.tempPageX + "px";
-    e.target.offsetTop = e.pageY + window.tempPageY + "px";
-}
+// function dragToMouse(e){
+//     e.target.style.top = e.pageX - window.tempPageX + "px";
+//     e.target.offsetTop = e.pageY + window.tempPageY + "px";
+// }
 
-function lampDrop(e){
-    // alert(e.target);
-}
+// function lampDrop(e){
+//     // alert(e.target);
+// }
