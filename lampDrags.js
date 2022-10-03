@@ -1,6 +1,8 @@
 function lampDrag(e){
     // alert(e.target);
     window.tempLamp = e.target;
+    window.tempPageX = e.pageX;
+    window.tempPageY = e.pageY;
     // addEventListener('mousemove', dragToMouse(e));
 }
 
