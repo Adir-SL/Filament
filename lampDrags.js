@@ -1,12 +1,12 @@
 function lampDrag(e){
     // alert(e.target);
     window.tempLamp = e.target;
-    this.addEventListener('mousemove', dragToMouse(e));
+    addEventListener('mousemove', dragToMouse(e));
 }
 
 function dragToMouse(e){
-    window.tempLamp.x = e.pageX;
-    window.tempLamp.y = e.pageY;
+    window.tempLamp.offsetLeft = e.pageX + "px";
+    window.tempLamp.offsetTop = e.pageY + "px";
 }
 
 function lampDrop(e){
