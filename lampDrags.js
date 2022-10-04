@@ -17,5 +17,5 @@ function dragMove(e){
 }
 
 function lampDrop(e){
-    // alert(e.target);
+    window.tempLamp = undefined;
 }
