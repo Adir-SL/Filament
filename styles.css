@@ -162,6 +162,7 @@ button:hover{
     /* animation: animIntro 300ms ease-out 1500ms both; */
 }
 .outerLamp{
+    position: relative;
     cursor: pointer;
     animation: lampIntro 300ms ease-out 800ms both;
 }
