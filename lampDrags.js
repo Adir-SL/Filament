@@ -8,6 +8,7 @@ function lampDrag(e){
 
 function dragMove(e){
     e.target.style.transform = "translate("+e.pageX - window.tempPageX + "px"+","+e.pageY - window.tempPageY + "px)";
+    console.log("move")
 }
 
 function lampDrop(e){
