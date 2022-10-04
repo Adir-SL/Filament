@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
-<body onload="setTimeout(function() {document.getElementById('board').classList.remove('intro');}, 1500);" onmousemove="dragMove(event);">
+<body onload="setTimeout(function() {document.getElementById('board').classList.remove('intro');}, 1500);" onmousemove="dragMove(event);" onmouseup="lampDrop(event);">
     <div id="wrapper">
         <div id="headerDiv">
             <!-- Filament -->
@@ -108,22 +108,22 @@
                 <div class="gridDot"></div>
             </div>
             <div class="lampParent">
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-8"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-7"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-6"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-5"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-4"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-3"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-2"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-8"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-7"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-6"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-5"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-4"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-3"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-2"></div></div>
             </div>
             <div class="lampParent horizon">
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-8"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-7"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-6"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-5"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-4"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-3"></div></div>
-                <div class="outerLamp" onmousedown="lampDrag(event);" onmouseup="lampDrop(event);"><div class="lamp length-2"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-8"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-7"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-6"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-5"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-4"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-3"></div></div>
+                <div class="outerLamp" onmousedown="lampDrag(event);"><div class="lamp length-2"></div></div>
             </div>
         </div>
     </div>
