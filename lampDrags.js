@@ -10,8 +10,8 @@ function dragMove(e){
     if(window.tempLamp !== undefined){
         window.moveByX = e.pageX - window.tempPageX + "px";
         window.moveByY = e.pageY - window.tempPageY + "px";
-        e.target.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
-        e.target.style.animationName = "none";
+        window.tempLamp.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
+        window.tempLamp.style.animationName = "none";
         console.log("translate(" + window.moveByX + "," + window.moveByY + ")");
     }
 }
