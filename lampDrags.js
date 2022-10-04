@@ -7,8 +7,7 @@ function lampDrag(e){
 }
 
 function dragMove(e){
-    e.target.style.top = e.pageX - window.tempPageX + "px";
-    e.target.offsetTop = e.pageY + window.tempPageY + "px";
+    e.target.style.transform = "translate("+e.pageX - window.tempPageX + "px"+","+e.pageY - window.tempPageY + "px)";
 }
 
 function lampDrop(e){
