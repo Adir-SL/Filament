@@ -16,10 +16,11 @@ function dragMove(e){
 }
 
 function lampDrop(e){
+    window.gridDotSize = document.getElementsByClassName("gridDot")[0].offsetWidth;
     window.moveByX = e.pageX - window.tempPageX;
     window.moveByY = e.pageY - window.tempPageY;
-    window.moveByX = Math.floor(window.moveByX/5.5) * 5.5 + "px";
-    window.moveByY = Math.floor(window.moveByY/5.5) * 5.5 + "px";
+    window.moveByX = Math.floor(window.moveByX/window.gridDotSize) * window.gridDotSize + "px";
+    window.moveByY = Math.floor(window.moveByY/window.gridDotSize) * window.gridDotSize + "px";
     window.tempLamp.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
     console.log("translate(" + window.moveByX + "," + window.moveByY + ")");
     window.tempLamp = undefined;
