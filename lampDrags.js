@@ -21,8 +21,7 @@ function lampDrop(e){
     window.moveByY = e.pageY - window.tempPageY;
     window.moveByX = Math.floor(window.moveByX/window.gridDotSize) * window.gridDotSize;
     window.moveByX = window.moveByX - (window.gridDotSize/2) + "px";
-    window.moveByY = Math.floor(window.moveByY/window.gridDotSize) * window.gridDotSize;
-    window.moveByY = window.moveByY - (window.gridDotSize/2) + "px";
+    window.moveByY = Math.floor(window.moveByY/window.gridDotSize) * window.gridDotSize + "px";
     window.tempLamp.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
     console.log("translate(" + window.moveByX + "," + window.moveByY + ")");
     window.tempLamp = undefined;
