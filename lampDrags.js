@@ -20,6 +20,7 @@ function lampDrop(e){
     window.moveByX = e.pageX - window.tempPageX;
     window.moveByY = e.pageY - window.tempPageY;
     window.moveByX = Math.floor(window.moveByX/window.gridDotSize) * window.gridDotSize + "px";
+    window.moveByX;
     window.moveByY = Math.floor(window.moveByY/window.gridDotSize) * window.gridDotSize + "px";
     window.tempLamp.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
     console.log("translate(" + window.moveByX + "," + window.moveByY + ")");
