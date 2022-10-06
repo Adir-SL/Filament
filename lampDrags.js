@@ -12,7 +12,6 @@ function dragMove(e){
         window.moveByY = e.pageY - window.tempPageY + "px";
         window.tempLamp.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
         window.tempLamp.style.animationName = "none";
-        console.log("translate(" + window.moveByX + "," + window.moveByY + ")");
     }
 }
 
@@ -22,5 +21,6 @@ function lampDrop(e){
     window.moveByX = Math.floor(window.moveByX/10) * 10;
     window.moveByY = Math.floor(window.moveByY/10) * 10;
     window.tempLamp.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
+    console.log("translate(" + window.moveByX + "," + window.moveByY + ")");
     window.tempLamp = undefined;
 }
