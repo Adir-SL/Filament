@@ -17,5 +17,8 @@ function dragMove(e){
 }
 
 function lampDrop(e){
+    window.moveByX = e.pageX - window.tempPageX + "px";
+    window.moveByY = e.pageY - window.tempPageY + "px";
+    window.tempLamp.style.transform = "translate(" + window.moveByX + "," + window.moveByY + ")";
     window.tempLamp = undefined;
 }
