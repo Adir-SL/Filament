@@ -159,7 +159,6 @@ button:hover{
     width: 100%;
     top: 100%;
     transform-style: preserve-3d;
-    /* animation: animIntro 300ms ease-out 1500ms both; */
 }
 .outerLamp{
     position: relative;
