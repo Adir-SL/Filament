@@ -271,8 +271,7 @@ button:hover{
     left: 100%
 }
 .lampParent.horizon .lamp{
-    /* background-color: lightgreen; */
-    /* box-shadow: 0 0 2vmin lightgreen; */
+    
     --shadowColor: var(--lampColorRight);
     width: calc(var(--lampSize) / 2.5);
     height: calc(var(--lampSize) * 2);
