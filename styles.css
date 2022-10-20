@@ -153,12 +153,13 @@ button:hover{
 .lampParent{
     --lampSize: 5.3vmin;
     position: absolute;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     width: 100%;
-    top: 100%;
-    transform-style: preserve-3d;
+    top: 50%;
+    left: 25%;
+    /* transform-style: preserve-3d; */
 }
 .outerLamp{
     position: relative;
