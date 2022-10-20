@@ -9,6 +9,8 @@ body, #wrapper{
     align-items: center;
     background-color: #000000;
     perspective: 1000vmin;
+    --lampColorLeft: skyblue;
+    --lampColorRight: lightgreen;
 }
 #headerDiv{
     position: absolute;
@@ -57,8 +59,6 @@ button:hover{
     background-color: #373737;
     transform-style: preserve-3d;
     transform: rotateX(45deg) rotateZ(45deg);
-    --lampColorLeft: skyblue;
-    --lampColorRight: lightgreen;
 }
 #board.intro{
     animation: introBoard 1000ms ease-in-out forwards;
@@ -160,7 +160,7 @@ button:hover{
     width: 100%;
     top: 58%;
     left: 8%;
-    /* transform-style: preserve-3d; */
+    transform-style: preserve-3d;
 }
 .outerLamp{
     position: relative;
