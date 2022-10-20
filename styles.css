@@ -153,9 +153,10 @@ button:hover{
 .lampParent{
     --lampSize: 5.3vmin;
     position: absolute;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; */
     width: 100%;
     top: 50%;
     left: 25%;
@@ -164,7 +165,7 @@ button:hover{
 .outerLamp{
     position: relative;
     cursor: pointer;
-    /* animation: lampIntro 300ms ease-out 800ms both; */
+    animation: lampIntro 300ms ease-out 800ms both;
 }
 .outerLamp:hover{
     filter: brightness(120%);
@@ -266,11 +267,11 @@ button:hover{
     width: calc(var(--lampSize) * 3);
 }
 .lampParent.horizon{
-    flex-direction: row;
+    /* flex-direction: row;
     width: fit-content;
     height: 100%;
     top: 0%;
-    left: 100%
+    left: 100% */
 }
 .lampParent.horizon .lamp{
     --shadowColor: var(--lampColorRight);
