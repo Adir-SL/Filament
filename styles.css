@@ -279,7 +279,8 @@ button:hover{
     width: calc(var(--lampSize) / 2.5);
     height: calc(var(--lampSize) * 2);
     transform: rotate(-125deg);
-    transform: none;
+    margin-right: calc(var(--lampSize) / 1);
+    /* transform: none; */
 }
 .lampParent.horizon .length-8{
     margin-top: 1vmin;
