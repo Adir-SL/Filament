@@ -207,8 +207,8 @@ button:hover{
 .lamp.length-5, .lamp.length-1{
     animation-delay: -200ms;
 }
-.lamp::before, .lamp::after{
-    content: '';
+.outerLamp .firstChup, .outerLamp .secChup{
+    /* content: ''; */
     position: absolute;
     width: calc(var(--lampSize) / 1.2);
     height: calc(var(--lampSize) / 1.7);
