@@ -198,7 +198,7 @@ button:hover{
     margin: 1vmin;
     border-radius: 9999px;
     pointer-events: none;
-    transform: rotate(35deg);
+    /* transform: rotate(35deg); */
     animation: lampBlink 1500ms linear infinite;
 }
 .lamp.length-7, .lamp.length-2, .lamp.length-3{
