@@ -159,6 +159,7 @@ button:hover{
     width: 100%;
     top: 50%;
     left: 25%;
+    transform: rotate(35deg);
     /* transform-style: preserve-3d; */
 }
 .outerLamp{
