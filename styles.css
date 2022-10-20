@@ -164,7 +164,7 @@ button:hover{
 .outerLamp{
     position: relative;
     cursor: pointer;
-    animation: lampIntro 300ms ease-out 800ms both;
+    /* animation: lampIntro 300ms ease-out 800ms both; */
 }
 .outerLamp:hover{
     filter: brightness(120%);
