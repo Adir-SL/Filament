@@ -162,7 +162,7 @@ button:hover{
     top: 58%;
     left: 8%; */
     position: absolute;
-    transform: translateX(-10vmin) translateY(-10vmin);
+    transform: translateX(-18vmin) translateY(28vmin);
     transform-style: preserve-3d;
 }
 .outerLamp{
