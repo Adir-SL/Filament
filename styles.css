@@ -272,6 +272,9 @@ button:hover{
 .length-3{
     width: calc(var(--lampSize) * 3);
 }
+.lampParent.horizon .lamp{
+    transform: rotate(-35deg);
+}
 .lampParent.horizon{
     /* display: flex;
     display: none;
