@@ -274,7 +274,7 @@ button:hover{
 }
 .lampParent.horizon{
     display: flex;
-    display: none;
+    /* display: none; */
     flex-direction: row;
     width: fit-content;
     /* height: 100%;
