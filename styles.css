@@ -273,10 +273,10 @@ button:hover{
     width: calc(var(--lampSize) * 3);
 }
 .lampParent.horizon{
-    display: flex;
-    /* display: none; */
+    /* display: flex;
+    display: none;
     flex-direction: row;
-    width: fit-content;
+    width: fit-content; */
     /* height: 100%;
     top: 0%;
     left: 100% */
