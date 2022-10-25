@@ -295,7 +295,7 @@ button:hover{
 }
 .lampParent.horizon .lamp{
     transform: none;
-    transform: rotate(35deg);
+    transform: rotate(55deg);
 }
 .lampParent.horizon .length-8{
     margin-top: 1vmin;
