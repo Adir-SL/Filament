@@ -237,7 +237,7 @@ button:hover{
     text-indent: calc(var(--lampSize) * .3);
     text-shadow: 0 0 calc(var(--lampSize) * .1) white;
 }
-.lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
+/* .lampParent.horizon .lamp::before, .lampParent.horizon .lamp::after{
     height: calc(var(--lampSize) / 1.2);
     width: calc(var(--lampSize) / 1.7);
     top: -10px;
@@ -252,7 +252,7 @@ button:hover{
     top: auto;
     bottom: -10px;
     z-index: inherit;
-}
+} */
 .length-8{
     width: calc(var(--lampSize) * 8);
     margin-top: 2vmin;
@@ -281,7 +281,7 @@ button:hover{
     top: 0%;
     left: 100% */
 }
-.lampParent.horizon .lamp{
+/* .lampParent.horizon .lamp{
     --shadowColor: var(--lampColorRight);
     width: calc(var(--lampSize) / 2.5);
     height: calc(var(--lampSize) * 2);
@@ -308,7 +308,7 @@ button:hover{
 }
 .lampParent.horizon .length-3{
     height: calc(var(--lampSize) * 3);
-}
+} */
 
 @keyframes animIntro {
     0%{opacity: 0;}
